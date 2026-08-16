@@ -1,0 +1,39 @@
+# URL config format: key:https://endpoint
+# Keys are case-sensitive and used by js-lib/urlConfig.js getServiceUrl(key)
+#
+# This section begins the use of the python lambdas.
+# once tested, you can adjust the original entries above
+# to use the python lambda functions.
+# Note the new stackname
+getFBPUserPython:https://my-fbp.com/prod/getFBPUserPython
+updateFBPUserPython:https://my-fbp.com/prod/updateFBPUser
+addFBPUserPython:https://my-fbp.com/prod/addFBPUser
+getAllFBPPicksPython:https://my-fbp.com/prod/getAllFBPPicks
+getPoolStatus:https://my-fbp.com/prod/getPoolOpen
+setPoolStatusOpen:https://my-fbp.com/prod/setPoolStatusOpen
+setPoolStatusClosed:https://my-fbp.com/prod/setPoolStatusClosed
+getPickSheet:https://my-fbp.com/prod/getPickSheet
+getFBPPicksForUserPython:https://my-fbp.com/prod/getFBPPicksPython
+savePicks:https://my-fbp.com/prod/saveFBPPicks
+getWeeklyResults:https://my-fbp.com/prod/getWeeklyResults
+calcWeeklyResults:https://my-fbp.com/prod/calcWeeklyResults
+updateWeeklyResults:https://my-fbp.com/prod/updateWeeklyResults
+getFBPUserEmailAndDisplayName:https://my-fbp.com/prod/getFBPUserEmailAndDisplayName
+getStandings:https://my-fbp.com/prod/getStandings
+sendEmail:https://my-fbp.com/prod/sendEmail
+validateAndFixFBPPicks:https://my-fbp.com/prod/validateAndFixFBPPicks
+queryFBPLogs:https://my-fbp.com/prod/queryFBPLogs
+getSchedule:https://my-fbp.com/prod/getschedule
+getUserStatus:https://my-fbp.com/prod/getUserStatus
+FBPLedger:https://my-fbp.com/prod/getFBPLedger
+FBPLedgerDeposit:https://my-fbp.com/prod/deposit
+FBPLedgerPayout:https://my-fbp.com/prod/payout
+storeSMSVerificationCode:https://my-fbp.com/prod/storeSMSVerificationCode
+getSMSVerificationCode:https://my-fbp.com/prod/getSMSVerificationCode
+updateSMSVerification:https://my-fbp.com/prod/updateSMSVerification
+advancedEmail:https://my-fbp.com/prod/advanced-email
+getTeamRecords:https://my-fbp.com/prod/getTeamRecords
+chatbot:https://my-fbp.com/prod/chatbot
+getCurrentWeek:https://my-fbp.com/prod/getCurrentWeek
+htmlToPdf:https://my-fbp.com/prod/htmlToPdf
+advancedMessagingService:https://my-fbp.com/prod/advanced-messaging
